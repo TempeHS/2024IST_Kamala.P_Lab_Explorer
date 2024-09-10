@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
  
     private void Update()
     {
+        Debug.Log("working");
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
  
@@ -27,17 +28,19 @@ public class PlayerMovement : MonoBehaviour
  
         if (Input.GetKey(KeyCode.UpArrow) && grounded)
             Jump();
+
  
         //sets animation parameters
         anim.SetBool("Walk", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
+
     }
  
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
-        anim.SetTrigger("jump");
-        grounded = false;
+        //body.velocity = new Vector2(body.velocity.x, speed);
+        //anim.SetTrigger("jump");
+        //grounded = false;
     }
  
     private void OnCollisionEnter2D(Collision2D collision)
