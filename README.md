@@ -19,7 +19,8 @@ Press S to start the game.
 Original music composed specifically for game. Do not reuse.
 https://www.youtube.com/embed/u9hErvPnv_U
 ## Playthrough 
-[Watch the Video](https://drive.google.com/file/d/VIDEO_ID/view?usp=sharing)
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1g6J64na_5H44lzIquclvvo0CoOojhzFZ/view?usp=drivesdk)
+
 ## Development Documentation - Problems and Solutions
 ### Overall
 ![Game PLay](https://drive.google.com/uc?id=1AY0jS0Za4ApZgUt1KaEgbgvvSdmDM7jj)
