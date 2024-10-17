@@ -1,5 +1,28 @@
-### Development Documentation - Problems and Solutions
+# Lab Explorer
+
+## User Documentation
+
+### About the game
+Lab Explorer is a game designed to raise awareness about chemical pollution and its impact on the environment. Chemical pollution occurs when an environment is contaminated, which can happen through soil, water, or air, among other means. This contamination can cause significant disruptions for any organisms living in that space, ranging from the smallest plants to humans, and it can be disastrous for both.
+In the game, the character is a scientist who must block off and escape from a lab contaminated by a dangerous substance that has leaked due to a failed experiment. The goal of the game is to help the scientist escape before time runs out and to prevent the surrounding area from being contaminated and taken over by the dangerous life forms created by the experiment.
+While creatures may not spawn from failed science experiments in real life, the game teaches us a valuable lesson: like the scientist, we must take care of our environment to prevent further destruction that our activities may cause. In reality, two billion tons of human waste are dumped into rivers every single day. This figure is sourced from the UN Environment Programme’s initiative called Beat Pollution. This clearly illustrates how urgently we need to initiate change.
+### Objective
+Escape the lab and close it off before the timer which is one minute long runs out.
+### Controls 
+![The controls and where they are on the keyboard](https://drive.google.com/uc?id=1M0iMvQm_KuyqrSk400oQKy8S0hBTUn2I)
+Move: Left arrow, right arrow, A key & D key.
+Jump: Space bar & Up arrow.
+### Mechanics 
+Press S to start the game.
+![Title Screen](https://drive.google.com/uc?id=1f2_J7ohA47PDIhhE3Lds7qOBxQA8oRio)
+### Music 
+Original music composed specifically for game. Do not reuse.
+https://www.youtube.com/embed/u9hErvPnv_U
+## Playthrough 
+[Watch the Video](https://drive.google.com/file/d/VIDEO_ID/view?usp=sharing)
+## Development Documentation - Problems and Solutions
 ### Overall
+![Game PLay](https://drive.google.com/uc?id=1AY0jS0Za4ApZgUt1KaEgbgvvSdmDM7jj)
 While working on this project, I encountered a variety of challenges. Some issues were resolved quickly, while others persisted for months in the background. Some problems were even incorporated into the game as additional elements.
 ### Player Movement
 During the early stages of the project, I had little to no problems with the movement code, and everything worked normally. However, the movement was quite basic, lacking animation. Additionally, if the jump button was pressed, the character would continue to rise infinitely until the button was released, effectively creating an unwanted "infinite jump."
@@ -20,4 +43,3 @@ At a certain point during development, the game could no longer be viewed throug
 ### Layering
 In the early stages of development, I didn't consider using layers, which led to objects clipping over each other on a single layer. As the project progressed, I had to rearrange the order of certain assets, such as the player sprite, timer, and the main menu screen. This caused some minor issues, but they were relatively easy to fix in the long run.
  
-
